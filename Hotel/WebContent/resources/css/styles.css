@@ -1,0 +1,36 @@
+
+body {
+	font: normal 12px Arial; 
+}
+
+table {
+	width: 50%;
+	border: 1px dotted #000;
+	margin: 5px;
+}
+
+tr > th {
+	background-color: #DDD;
+}
+
+tr.linha1 > td {
+	background-color: #EEE;
+}
+
+tr.linha2 > td {
+	background-color: #FFF;
+}
+
+.info {
+	color: #00F;
+}
+.warn {
+	color: #CC0;
+}
+.erro {
+	color: #F00;
+}
+.fatal {
+	color: #F00;
+	font-weight: bold;
+}
